@@ -1,19 +1,33 @@
 # MetaSteganography 🔐
 
-A simple web-based application that allows users to hide and retrieve encrypted messages within image files using steganography techniques.
+A Java-based steganography tool that allows users to securely embed and extract encrypted text data within image files.
 
-## Technologies Used:
-- HTML5
-- CSS3
-- JavaScript
+## 📌 Project Overview
 
-## Features:
-- Upload an image and embed a message securely
-- Download the encoded image
-- Decode image to retrieve hidden data
+MetaSteganography is a desktop application developed in Java that uses basic steganographic techniques to hide data inside PNG images. It ensures secure encoding and decoding of messages without visibly altering the image structure.
 
-## Live Demo
-🚧 Coming Soon
+---
 
-## Author
-Sibgatullah Amir
+## 💻 Tech Stack
+
+- Java SE 8+  
+- Swing (for GUI)  
+- BufferedImage, File IO  
+- Custom Encoding/Decoding Algorithms
+
+---
+
+## ✨ Features
+
+- Hide secret messages inside image pixels
+- Extract messages from encoded images
+- Simple and intuitive Swing-based UI
+- Supports PNG format for lossless data handling
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/meta-steganography
